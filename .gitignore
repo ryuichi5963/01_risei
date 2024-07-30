@@ -1,0 +1,10 @@
+# node_modulesフォルダは除外
+/node_modules/
+
+# 隠しファイルは.gitignore以外は除外
+.*
+!.gitignore
+
+# 個別設定
+package-lock.json
+package.json
